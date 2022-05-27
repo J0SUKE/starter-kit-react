@@ -26,6 +26,7 @@ module.exports = merge(
             https: false,
             allowedHosts: 'all',
             hot: false,
+            historyApiFallback: true,
             watchFiles: ['src/**', 'static/**'],
             static:
             {
